@@ -11,11 +11,11 @@
 
 - [-] Fetch data with axios
 
-  - [-] `/GET` findAll
-  - [-] `/GET` findById
-  - [-] `/POST` addOne
-  - [-] `/DELETE` removeById
+  - [x] `/GET` findAll
+  - [x] `/POST` addOne
+  - [x] `/DELETE` removeById
 
 ### Later
 
+- [-] `/GET` findById
 - [ ] `/PUT` updateById

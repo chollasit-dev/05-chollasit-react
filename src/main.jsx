@@ -1,7 +1,7 @@
 import ReactDOM from 'react-dom/client';
 import { createBrowserRouter, RouterProvider } from 'react-router';
 import { App } from './App';
-import { Index, Users } from './pages';
+import { Admin, Index, Owner, Users } from './pages';
 import './style.css';
 
 let router = createBrowserRouter([
@@ -17,7 +17,15 @@ let router = createBrowserRouter([
         path: 'user',
         Component: Users,
       },
+      {
+        path: 'admin',
+        Component: Admin,
+      },
     ],
+  },
+  {
+    path: 'owner',
+    Component: Owner,
   },
 ]);
 

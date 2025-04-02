@@ -12,7 +12,7 @@ export function Header() {
         </Link>
         <Link
           className='text-xl font-semibold text-sky-800 transition hover:text-sky-600 focus-visible:text-sky-600'
-          to={{ pathname: '/user' }}
+          to={{ pathname: '/owner' }}
         >
           Owner
         </Link>
