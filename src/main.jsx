@@ -14,7 +14,7 @@ let router = createBrowserRouter([
         Component: Index,
       },
       {
-        path: 'users',
+        path: 'user',
         Component: Users,
       },
     ],
