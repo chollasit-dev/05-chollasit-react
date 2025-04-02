@@ -1,7 +1,7 @@
 import ReactDOM from 'react-dom/client';
 import { createBrowserRouter, RouterProvider } from 'react-router';
 import { App } from './App';
-import { Index } from './pages/Index';
+import { Index, Users } from './pages';
 import './style.css';
 
 let router = createBrowserRouter([
@@ -12,6 +12,10 @@ let router = createBrowserRouter([
       {
         index: true,
         Component: Index,
+      },
+      {
+        path: 'users',
+        Component: Users,
       },
     ],
   },
